@@ -1,0 +1,32 @@
+body {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 28px;
+}
+header .avatar, img {
+  position: relative;
+  height: 100px;
+}
+#profileContainer {
+  min-height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  flex: 1;
+}
+a:link, a:visited, a:hover, a:active  {
+  color: #fff;
+}
